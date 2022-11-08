@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1"/>
+    <PackageReference Include="MathNet.Numerics" Version="5.0.0"/>
+    <PackageReference Include="MathNet.Symbolics" Version="0.24.0"/>
+    <PackageReference Include="MathNet.Numerics.FSharp" Version="5.0.0"/>
+    <PackageReference Include="Wolfram.Alpha" Version="1.0.7"/>
+    <PackageReference Include="WolframAlphaNET" Version="2.0.0"/>
+    <PackageReference Include="Genbox.WolframAlpha" Version="3.0.0-alpha3"/>
+    <PackageReference Include="xunit" Version="2.4.2"/>
+    <PackageReference Include="WolframAPI" Version="1.2.0"/>
+  </ItemGroup>
+</Project>
